@@ -1,0 +1,43 @@
+name: timestamp
+parent: default
+
+matches:
+    - trigger: ':date'
+      replace: '{{stamp}}'
+      vars:
+          - name: stamp
+            type: date
+            params:
+                format: '%d.%m.%y'
+
+    - trigger: ':ndate'
+      replace: '{{stamp}}'
+      vars:
+          - name: stamp
+            type: date
+            params:
+                format: '%Y-%m-%d'
+
+    - trigger: ':time'
+      replace: '{{stamp}}'
+      vars:
+          - name: stamp
+            type: date
+            params:
+                format: '%H:%M'
+
+    - trigger: ':ltime'
+      replace: '{{stamp}}'
+      vars:
+          - name: stamp
+            type: date
+            params:
+                format: '%H:%M:%S'
+
+    - trigger: ':ts'
+      replace: '{{stamp}}'
+      vars:
+          - name: stamp
+            type: date
+            params:
+                format: '%Y-%m-%dT%H:%M:%S'

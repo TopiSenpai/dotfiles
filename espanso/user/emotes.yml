@@ -1,0 +1,49 @@
+# espanso configuration file
+name: emotes
+parent: default
+
+matches:
+    - trigger: '::shrug'
+      replace: "¯\\_(ツ)_/¯"
+
+    - trigger: '::lenny'
+      replace: '( ͡° ͜ʖ ͡°)'
+
+    - trigger: '::gib'
+      replace: '༼ つ ◕_◕༽つ'
+
+    - trigger: '::nice'
+      replace: 'https://imgur.com/yFsi2sj'
+      word: true
+
+    - trigger: '::omg'
+      replace: 'https://imgur.com/OFEhWLt'
+      word: true
+
+    - trigger: '::okmasta'
+      replace: 'https://imgur.com/uMt4FVE'
+      word: true
+
+    - trigger: '::rero'
+      replace: 'https://imgur.com/92u2qsw'
+      word: true
+
+    - trigger: '::iam'
+      replace: 'https://imgur.com/5TGCZO5'
+      word: true
+
+    - trigger: '::omgyes'
+      replace: 'https://imgur.com/5hPKiEm'
+      word: true
+
+    - trigger: '::no'
+      replace: 'https://imgur.com/5qV57FJ'
+      word: true
+
+    - trigger: '::yes'
+      replace: 'https://imgur.com/SN9R0EG'
+      word: true
+
+    - trigger: '::kotowaru'
+      replace: 'https://thumbs.gfycat.com/JointHonorableGuillemot-max-1mb.gif'
+      word: true

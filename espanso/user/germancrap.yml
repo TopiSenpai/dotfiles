@@ -1,0 +1,20 @@
+# espanso configuration file
+name: germancrap
+parent: default
+
+matches:
+    - trigger: '`a'
+      replace: 'ä'
+      propagate_case: true
+
+    - trigger: '`o'
+      replace: 'ö'
+
+    - trigger: '`u'
+      replace: 'ü'
+
+    - trigger: '`s'
+      replace: 'ß'
+
+    - trigger: '`e'
+      replace: '€'
