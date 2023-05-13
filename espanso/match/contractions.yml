@@ -1,6 +1,5 @@
 # espanso configuration file
 name: contractions
-parent: default
 
 matches:
     - trigger: 'didnt'

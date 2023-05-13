@@ -1,5 +1,4 @@
 name: timestamp
-parent: default
 
 matches:
     - trigger: ':date'

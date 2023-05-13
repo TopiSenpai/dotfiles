@@ -1,6 +1,5 @@
 # espanso configuration file
 name: greekletters
-parent: default
 
 matches:
     - trigger: '::alpha'
