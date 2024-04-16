@@ -1,0 +1,147 @@
+# This is a TOML file
+# For more information, see https://toml.io/
+#
+
+# General configuration
+theme = 'default'
+
+# Editor configuration
+[editor]
+tab_size = 4
+indent_size = 4
+end_of_line = 'lf'
+charset = 'utf-8'
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# Cursor configuration
+[editor.cursor]
+mode = 'blink'
+blink_interval = '530ms'
+shape = 'block'
+
+# Language Server Protocol configuration
+# For a list of available language servers, see: https://langserver.org/#implementations-server
+[lsp]
+[lsp.servers]
+
+[lsp.servers.go]
+command = 'gopls'
+args = []
+file_extensions = ['.go']
+files = ['go.mod', 'go.sum', 'go.work', 'go.work.sum']
+
+[lsp.servers.yaml]
+command = 'yaml-language-server'
+args = ['--stdio']
+file_extensions = ['.yaml', '.yml']
+files = []
+
+[lsp.servers.json]
+command = 'vscode-json-languageserver'
+args = ['--stdio']
+file_extensions = ['.json', '.jsonc']
+files = []
+
+[lsp.servers.html]
+command = 'vscode-html-language-server'
+args = ['--stdio']
+file_extensions = ['.html', '.htm']
+files = []
+
+[lsp.servers.toml]
+command = 'taplo'
+args = ['lsp', 'stdio']
+file_extensions = ['.toml']
+files = []
+
+# Key bindings configuration
+[keys]
+quit = 'ctrl+q'
+help = 'ctrl+h'
+ok = 'enter'
+cancel = 'esc'
+left = 'left'
+right = 'right'
+up = 'up'
+down = 'down'
+terminal = 'ctrl+t'
+run = 'ctrl+k'
+
+# Editor key bindings configuration
+[keys.editor]
+open_file = 'ctrl+o'
+save_file = 'ctrl+s'
+close_file = 'ctrl+w'
+new_file = 'ctrl+n'
+rename_file = 'ctrl+r'
+delete_file = 'ctrl+g'
+search = 'ctrl+f'
+toggle_file_tree = 'ctrl+b'
+next_file = 'alt+right'
+prev_file = 'alt+left'
+autocomplete = 'ctrl+@'
+next_completion = 'down'
+prev_completion = 'up'
+apply_completion = 'enter'
+refresh_syntax_highlight = 'f1'
+toggle_tree_sitter_debug = 'f2'
+debug_tree_sitter_nodes = 'f3'
+character_left = 'left'
+character_right = 'right'
+word_left = 'ctrl+left'
+word_right = 'ctrl+right'
+line_up = 'up'
+line_down = 'down'
+word_up = 'ctrl+up'
+word_down = 'ctrl+down'
+page_up = 'pgup'
+page_down = 'pgdown'
+line_start = 'home'
+line_end = 'end'
+file_start = 'ctrl+home'
+file_end = 'ctrl+end'
+select_left = 'shift+left'
+select_right = 'shift+right'
+select_up = 'shift+up'
+select_down = 'shift+down'
+select_all = 'ctrl+a'
+cut = 'ctrl+x'
+copy = 'ctrl+c'
+paste = 'ctrl+v'
+undo = 'ctrl+z'
+redo = 'ctrl+y'
+tab = 'tab'
+remove_tab = 'shift+tab'
+newline = 'enter'
+backspace = 'backspace'
+delete = 'delete'
+duplicate_line = 'ctrl+d'
+delete_line = 'ctrl+backspace'
+
+# File tree key bindings configuration
+[keys.editor.file_tree]
+select_prev = 'up'
+select_next = 'down'
+expand_width = 'ctrl+right'
+shrink_width = 'ctrl+left'
+open = 'enter'
+
+# Search bar key bindings configuration
+[keys.editor.search_bar]
+select_prev = 'up'
+select_next = 'down'
+select_result = 'enter'
+close = 'esc'
+
+# File picker key bindings configuration
+[keys.file_picker]
+go_to_top = 'home'
+go_to_end = 'end'
+up = 'up'
+down = 'down'
+page_up = 'pgup'
+page_down = 'pgdown'
+back = 'left'
+open = 'right'
+select = 'enter'
