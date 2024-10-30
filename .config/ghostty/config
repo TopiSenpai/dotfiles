@@ -1,0 +1,54 @@
+background = 292C3E
+foreground = EBEBEB
+background-opacity = 0.87
+
+window-decoration = false
+shell-integration-features = no-cursor
+window-theme = dark
+
+confirm-close-surface = false
+
+#keybind = ctrl+z=close_surface
+#keybind = ctrl+d=new_split:right
+keybind = ctrl+enter=unbind
+
+font-size = 9
+
+font-family = JetBrains Mono Nerd Font
+font-family-bold = JetBrains Mono Nerd Font
+font-family-italic = "etBrains Mono Nerd Font
+font-family-bold-italic = JetBrains Mono Nerd Font
+
+font-style = default
+font-style-bold = default
+font-style-italic = default
+font-style-bold-italic = default
+
+cursor-color = FF261E
+cursor-text = EBEBEB
+cursor-style = block
+
+# black
+palette = 0=#0d0d0d
+palette = 8=#6D7070
+# red
+palette = 1=#FF301B
+palette = 9=#FF4352
+# green
+palette = 2=#A0E521
+palette = 10=#B8E466
+# yellow
+palette = 3=#FFC620
+palette = 11=#FFD750
+# blue
+palette = 4=#1BA6FA
+palette = 12=#1BA6FA
+# purple
+palette = 5=#8763B8
+palette = 13=#A578EA
+# aqua
+palette = 6=#21DEEF
+palette = 14=#73FBF1
+# white
+palette = 7=#EBEBEB
+palette = 15=#FEFEF8
